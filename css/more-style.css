@@ -1,0 +1,544 @@
+li{
+  color: grey;
+  font-size: 17px;
+}
+h2{
+  box-shadow: 1px 1px 8px -2px #444;
+}
+p{
+  font-size: 17px;
+}
+.wf-loading h1, .wf-loading h2, .wf-loading h3, .wf-loading h4, .wf-loading p, .wf-loading li, .wf-loading{
+ visibility: hidden;
+}
+.button{
+  background-color: #151787;
+  width: 118px;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0px;
+  -webkit-transition: all .1s ease-out;
+  transition: all .1s ease-out;
+  border: 0px solid transparent;
+}
+.button:hover{
+  background-color: orange;
+  color: #151787;
+}
+.section-head{
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+.placeholder{
+  background-image: url("") !important;
+  background-size: 100% 100%;
+  background-position: center;
+  display: block;
+  width: 320px;
+  height: 82px;
+  -webkit-transition: height 2s, width 2s;
+  transition: height 2s, width 2s;
+  margin-left: 0px;
+}
+.logo{
+  background-image: url("https://github.com/First-Capital-Web-Design/FCRE-site-3/blob/gh-pages/images/FCRE_INVESTMENTS_HOR.png?raw=true") !important;
+  background-size: 100% 100%;
+  background-position: center;
+  display: block;
+  width: 274px;
+  height: 60px;
+  -webkit-transition: height 2s, width 2s, background-image .2s;
+  transition: height 2s, width 2s, background-image .2s;
+  margin-left: 0px;
+  position: absolute;
+  left: 35px;
+  top: 25px;
+  z-index: 4;
+}
+/*ADVISOR AND BOARD*/
+.board-info-container{
+  height: auto;
+  width: calc(100% - 200px);
+  float: left;
+  background-color: white;
+  padding: 50px;
+  box-shadow: 1px 1px 8px grey;
+}
+.board-member-picture{
+  height: 45%;
+  width: 55%;
+  background-size: auto 95%;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+.board-member-header{
+  width: calc(100%);
+  padding-bottom: 30px;
+  height: auto;
+  color: blue;
+  float: left;
+}
+.board-member-header h1{
+  font-size: 50px;
+  line-height: 50px;
+  color: #151787;
+}
+.board-member-header h2{
+  font-size: 20px;
+  color: grey;
+  line-height: 0;
+  margin-top: -5px;
+}
+.board-member-info{
+  height: 55%;
+  width: 100%;
+  text-align: justify;
+  float: left;
+}
+.board-member-info p{
+  font-size: 15px;
+  line-height: 18px;
+}
+.board-members-container{
+  height: 300px;
+  padding-top: 140px;
+  width: 200px;
+  float: left;
+  text-align: center;
+  line-height: 26px;
+}
+.name{
+  width: 100%;
+  border: 1px solid grey;
+  border-right: 0;
+  padding: 7px 0;
+  color: grey;
+  background-color: white;
+  border-left: 8px solid grey;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  cursor: pointer;
+}
+.name+.name{
+  border-top: 0;
+}
+.name:hover{
+  color: orange;
+  border-left-color: orange;
+  padding-right: 20px;
+  margin-left: -10px;
+  width: 215px;
+}
+/**/
+.arrow-full-width{
+  background-image: url(https://github.com/First-Capital-Web-Design/FCRE-trust-site-1/blob/gh-pages/images/arrow-full-width.png?raw=true);
+  background-size: 100vw 80px;
+  height: 80px;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+}
+
+header{
+  position: relative;
+  z-index: 2;
+  border-bottom: 2px solid #151787;
+  -webkit-transition: height 1.5s;
+  transition: height 1.5s;
+}
+.home-image{
+  position: absolute;
+  z-index: -2;
+  width: 100vw;
+  background-image: url('https://github.com/First-Capital-Web-Design/FCRE-site-3/blob/gh-pages/images/background-gif6.gif?raw=true');
+  background-size: auto 67vw;
+  height: calc(100vh - 110px);
+  background-position: 0% 20%;
+  background-repeat: no-repeat;
+}
+.home-line{
+  position: absolute;;
+  left:25vw;
+  top: 20vh;
+  background-image: url('https://github.com/First-Capital-Web-Design/FCRE-site-3/blob/gh-pages/images/home-line-1.png?raw=true');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50vw;
+  height: 30vh;
+  background-color: rgba(0,0,0,.6);
+}
+.slider-button{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  top: -60px;
+  border-radius: 10px 10px 0 0;
+  -webkit-transition: all 1.5s ease-out;
+  transition: all 1.5s ease-out;
+  opacity: .83;
+}
+.slided{
+  bottom: 0px !important;
+}
+  .info-button-container{
+    position: absolute;
+    left: calc(50% - 166px);
+    top: 110px;
+    width: 331px;
+    height: 32px;
+    overflow: hidden;
+    -webkit-transition: top 1.5s;
+    transition: top 1.5s;
+    z-index: 2;
+    border: 2px solid #151787;
+    box-sizing: border-box;
+    background-color: #151787;
+    opacity: .8;
+  }
+.info-button{
+  width: auto;
+  padding: 0 10px;
+  font-size: 18px;
+  color: white;
+  background-color: #151787;
+  text-align: center;
+  float: left;
+  z-index: 2;
+  position: relative;
+  cursor: pointer !important;
+}
+.info-button-active{
+  color: orange;
+}
+.info-button:hover{
+  color:orange;
+}
+.info-button + .info-button{
+  border-left: 1px solid white;
+}
+.info-content{
+  width: 331px;
+  height: 0;
+  max-height: 0px;
+  position: absolute;
+  left: calc(50% - 166px);
+  top: 10px;
+  z-index: 1;
+  text-align: left;
+  background-color: white;
+  color: #151787;
+  padding: 0px;
+  font-size: 17px;
+  line-height: 25px;
+  -webkit-transition: max-height 1.5s;
+  transition: max-height 1.5s;
+  border: 2px solid transparent;
+  overflow: hidden;
+  opacity: .8;
+}
+.info-content-slided{
+  top: 142px;
+  height: auto;
+  border: 2px solid #151787;
+  padding: 10px 20px 10px 20px;
+  max-height: 500px;
+
+}
+.visible{
+  display: block;
+}
+.page-footer{
+  -webkit-transition: bottom 1.5s;
+  transition: bottom 1.5s;
+}
+.rotated {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+dl{
+  margin-bottom: 5px;
+}
+dl a{
+  color: white;
+}
+.shadow{
+  box-shadow: 0px 0px 0px -3px transparent;
+  width: 100%;
+  padding-bottom: 10px;
+  -webkit-transition: box-shadow .5s ease-out;
+  transition: box-shadow .5s ease-out;
+}
+.shadow:hover{
+  box-shadow: 0px 5px 20px 3px orange;
+  color: orange !important;
+}
+.hover-orange:hover{
+  color: orange !important;
+}
+.date{
+  text-decoration: overline;
+  color: orange;
+}
+
+@media (min-width: 1000px) {
+
+          #fh5co-main-nav{
+            margin-right: 0px !important;
+            margin-top: -115px;
+            float: right!important;
+            position: relative;
+          }
+          header{
+            padding-top: 10px;
+            padding-bottom: 0;
+            height: 110px;
+          }
+          header #fh5co-main-nav {
+            right: 50px;
+            position: absolute;
+          }
+
+}
+@media (max-width: 999px) {
+
+          .logo{
+            margin-left: calc(50% - 107.5px);
+            top: 30px;
+            left: 0;
+            width: 215px;
+            height: 47px;
+          }
+          header{
+            height: 150px;
+            padding-top:0;
+          }
+          .info-button-container{
+            top: 150px;
+            left: calc(50vw - 166px);
+          }
+
+          .fh5co-navbar-brand{
+            padding-bottom: 10px !important;
+          }
+          .info-content{
+            left: calc(50vw - 166px);
+          }
+          .info-content-slided{
+            top: 182px;
+            left: calc(50vw - 166px);
+          }
+
+          .home-image{
+            height: calc(100vh - 150px) !important;
+            background-size: auto 100vh !important;
+            background-position: center;
+            width: 100vw;
+            padding: 0;
+            margin: 0;
+          }
+
+          .opportunity-background{
+            background-size: auto 100% !important;
+          }
+}
+
+@media (max-width: 767px) {
+
+          .home-footer{
+            height: 450px !important;
+          }
+
+          .page-footer{
+            bottom: -450px !important;
+           }
+
+           .slided{
+             bottom: 0px !important;
+           }
+
+}
+
+@media (min-width: 568px) {
+
+          .mobile-nav{
+            display: none !important;
+          }
+
+}
+@media (max-width: 568px) {
+
+          header #fh5co-main-nav > ul li {
+            display: block;
+            margin-left: 0;
+            margin-bottom: 0px;
+            font-size: 15px;
+          }
+          .info-button-container{
+            left:0;
+            width: 100%;
+            height: 24px;
+            top: 100px;
+            opacity: 1;
+          }
+          .info-button{
+            width: 33vw;
+            font-size: 15px;
+            padding: 0 15px;
+          }
+          header{
+            padding-top: 20px;
+            width: 100vw;
+            padding-bottom: 20px;
+            height: 118px;
+          }
+          header .fh5co-navbar-brand {
+            padding-bottom: 0;
+          }
+          .home-image{
+            height: calc(100vh - 118px) !important;
+            background-size: auto 100vh !important;
+            width: 100vw;
+            padding: 0;
+            margin: 0;
+          }
+          .home-image-text{
+            font-size: 35px !important;
+          }
+          body{
+            width: 100%;
+            overflow-x: hidden;
+          }
+          .info-content-slided{
+            top: 90px;
+          }
+          .info-content{
+            font-size: 14px;
+            line-height: 18px;
+            left:0;
+            left: 12.5vw;
+            width: 75vw;
+          }
+          .mobile-nav{
+            display: block;
+            position: absolute;
+            right: 25px;
+            top: 25px;
+            width: 20px;
+            height: 20px;
+            z-index: 6;
+          }
+          #fh5co-main-nav {
+            overflow: hidden;
+            height: 0px;
+            -webkit-transition: height 1.5s;
+            transition: height 1.5s;
+            background-color: white !important;
+            width: 100%;
+            z-index: 10;
+          }
+          .container{
+            padding: 0;
+          }
+          .nav-active{
+            height: 80px !important;
+          }
+          .nav-info-active{
+            top: 190px !important;
+          }
+          .fh5co-table, .fh5co-table-cell, .fh5co-hero, .fh5co-parallax{
+            height: 440px !important;
+          }
+          .page-footer h3 {
+            font-size: 15px;
+            line-height: 0;
+         }
+         .page-footer{
+           height: auto !important;
+           bottom: -420px !important;
+           padding: 40px 10% !important;
+          }
+          .home-footer{
+            height: 420px !important;
+          }
+         .slided{
+           bottom: 0px !important;
+         }
+         .list-terms{
+           font-size: 15px;
+        }
+         .mobile-footer-text{
+           font-size: 14px;
+         }
+         .contact-mobile{
+           display: none;
+         }
+        .contact-mobile-second{
+          margin-top: 0 !important;
+        }
+        .center-banner {
+          margin-top: -135px !important;
+        }
+        .home-line{
+          left:10vw;
+          width: 80vw;
+          height: 30vh;
+        }
+        .page-head-container{
+          margin-top: 0px;
+        }
+        .board-info-container{
+          height: auto;;
+          width: calc(100%);
+          background-color: white;
+          padding: 10px;
+        }
+        .board-member-header{
+          width: calc(100%);
+          padding: 0px;
+          height: auto;
+          color: blue;
+          float: left;
+        }
+        .board-member-header h1{
+          font-size: 30px;
+          line-height: 35px;
+          color: #154b87;
+        }
+        .board-member-header h2{
+          font-size: 15px;
+          color: grey;
+          line-height: 0;
+          margin-top: -20px;
+        }
+        .board-member-info p{
+          font-size: 13px;
+          line-height: 16px;
+        }
+        .board-members-container{
+          height: auto;
+          padding-top: 0px;
+          width: 100%;
+          margin-top: 100px;
+        }
+        .name{
+          border-left: 0 solid transparent;
+        }
+        .name:hover{
+          color: orange;
+          padding-right: 0px;
+          margin-left: 0px;
+          width: 100%;
+        }
+        .row{
+          margin-right: 0;
+        }
+}
