@@ -43,7 +43,7 @@ p{
   margin-left: 0px;
 }
 .logo{
-  background-image: url("https://github.com/First-Capital-Web-Design/FCRE-site-3/blob/gh-pages/images/first-capital-logo.png?raw=true") !important;
+  background-image: url(../images/first-capital-logo.png) !important;
   background-size: 100% 100%;
   background-position: center;
   display: block;
@@ -134,7 +134,7 @@ p{
 }
 /**/
 .arrow-full-width{
-  background-image: url(https://github.com/First-Capital-Web-Design/FCRE-trust-site-1/blob/gh-pages/images/arrow-full-width.png?raw=true);
+  background-image: url(../images/arrow-full-width.png);
   background-size: 100vw 80px;
   height: 80px;
   width: 100vw;
@@ -153,7 +153,7 @@ header{
   position: absolute;
   z-index: -2;
   width: 100vw;
-  background-image: url('https://github.com/First-Capital-Web-Design/FCRE-site-3/blob/gh-pages/images/background-gif6.gif?raw=true');
+  background-image: url(../images/background-gif6.gif);
   background-size: auto 67vw;
   height: calc(100vh - 110px);
   background-position: 0% 20%;
@@ -163,7 +163,7 @@ header{
   position: absolute;;
   left:25vw;
   top: 20vh;
-  background-image: url('https://github.com/First-Capital-Web-Design/FCRE-site-3/blob/gh-pages/images/home-line.png?raw=true');
+  background-image: url(../images/home-line.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
