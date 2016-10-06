@@ -11,7 +11,6 @@
   padding: 10px;
   padding-top: 5px;
   font-size: 18px;
-  line-height: 5px;
   z-index: 10;
   box-shadow: 1px 1px 8px -2px #444;
   -webkit-transition: all .8s;
@@ -22,6 +21,13 @@
 }
 .home-page-audio:hover{
   right:0 !important;
+}
+.home-page-audio-text{
+  color:white;
+  width: 180px;
+  margin-left: 20px;
+  float: left;
+
 }
 .audio-hover{
   height: 100%;
@@ -175,6 +181,7 @@ p{
   width: 100vw;
   position: absolute;
   bottom: 0;
+  z-index: 1;
 }
 
 header{
@@ -407,6 +414,19 @@ dl a{
 }
 @media (max-width: 568px) {
 
+          .home-page-audio{
+            width: 100vw;
+            position: absolute;
+            height: 200px;
+            bottom: auto;
+            top: calc(100vh - 130px);
+            z-index: 0;
+          }
+          .home-page-audio-text{
+            width: calc(100vw - 175px);
+            font-size: 15px;
+            margin-top: 10px;
+          }
           header #fh5co-main-nav > ul li {
             display: block;
             margin-left: 0;
