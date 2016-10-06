@@ -24,9 +24,10 @@
 }
 .home-page-audio-text{
   color:white;
-  width: 180px;
+  width: 200px;
   margin-left: 20px;
   float: left;
+  line-height: 23px;
 
 }
 .audio-hover{
