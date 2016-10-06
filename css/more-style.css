@@ -17,7 +17,6 @@
   transition: all .8s;
   background: linear-gradient(to right, #211551, #154b87);
   padding:13px;
-  cursor: pointer;
 }
 .home-page-audio:hover{
   right:0 !important;
@@ -28,7 +27,6 @@
   margin-left: 20px;
   float: left;
   line-height: 23px;
-
 }
 .audio-hover{
   height: 100%;
