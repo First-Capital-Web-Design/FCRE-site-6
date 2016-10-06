@@ -421,11 +421,13 @@ dl a{
             bottom: auto;
             top: calc(100vh - 130px);
             z-index: 0;
+            right:0px !important;
           }
           .home-page-audio-text{
             width: calc(100vw - 175px);
             font-size: 15px;
             margin-top: 10px;
+            line-height: 20px;
           }
           header #fh5co-main-nav > ul li {
             display: block;
