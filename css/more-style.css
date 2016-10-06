@@ -1,3 +1,22 @@
+/*TEMP. AUDIO PLAYER*/
+.home-page-audio{
+  background-color: rgba(40, 40, 40, .7);
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  width: 370px;
+  height: 170px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  padding-top: 5px;
+  font-size: 18px;
+  line-height: 5px;
+  z-index: 10;
+  box-shadow: 1px 1px 8px -2px #444;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
 li{
   color: grey;
   font-size: 17px;
@@ -345,10 +364,6 @@ dl a{
             padding: 0;
             margin: 0;
           }
-
-          .opportunity-background{
-            background-size: auto 100% !important;
-          }
 }
 
 @media (max-width: 767px) {
@@ -540,5 +555,14 @@ dl a{
         }
         .row{
           margin-right: 0;
+        }
+        .investment-programs-head{
+          font-size: 20px !important;
+          width: 70vw !important;
+          margin-left: 15vw !important;
+        }
+        .shadow:hover{
+          box-shadow: 0px 5px 20px 3px transparent;
+          color: orange !important;
         }
 }
