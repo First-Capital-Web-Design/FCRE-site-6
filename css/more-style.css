@@ -51,6 +51,12 @@ p{
 .wf-loading h1, .wf-loading h2, .wf-loading h3, .wf-loading h4, .wf-loading p, .wf-loading li, .wf-loading{
  visibility: hidden;
 }
+.clearfix:after {
+   content: " ";
+   display: block;
+   height: 0;
+   clear: both;
+}
 .button{
   background-color: #151787;
   width: 118px;
@@ -219,7 +225,7 @@ header{
   left: 50%;
   margin-left: -30px;
   top: -60px;
-  border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;g
   -webkit-transition: all 1.5s ease-out;
   transition: all 1.5s ease-out;
   opacity: .83;
@@ -326,8 +332,89 @@ dl a{
   color: orange !important;
 }
 .date{
-  text-decoration: overline;
+  background-color: orange;
+  color: white;
+  margin-top: -24px;
+  display: inline-block;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.news-page-wrapper{
+  padding: 80px 10vw;
+  background-color: #b3cccc;
+}
+.news-wrapper{
+  width: 55vw;
+  float: left;
+  margin-bottom: 100px;
+}
+.news h1{
+  margin-top: -40px;
+}
+.news-page-wrapper h2{
+  box-shadow: none;
+  font-size: 30px;
+  width: 90%;
+}
+.news-object{
+  width: calc(50% - 30px);
+  background-color: #f2f2f2;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);;
+  border-top: 10px solid grey;
+  padding: 20px;
+  padding-bottom: 0;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  min-height: 300px;
+}
+.news-object + .news-object{
+}
+.rule{
+  float: left;
+  width: 100%;
+  height: 1px;
+}
+.news-head{
+  font-size: 52px;
+  color: #211551;
+  text-align: center;
+}
+.news-object p{
+  text-align: left !important;
+  line-height: 20px;
+  height: auto;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .8s;
+}
+.news-object-active p{
+  max-height: 350px;
+}
+.news-object a{
   color: orange;
+}
+.left-panel{
+  float: left;
+  padding-top: 93px;
+  width: 24vw;
+}
+.announcements{
+  width: 100%;
+  background-color: #211551;
+  min-height: 100px;
+  padding: 20px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);;
+  margin-bottom: 20px;
+  color: white !important;
+  font-size: 18px;
+}
+.announcements h3{
+  margin-bottom: 10px;
+}
+.announcements span{
+  font-size: 18px;
 }
 
 @media (min-width: 1000px) {
